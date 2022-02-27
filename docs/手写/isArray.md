@@ -1,5 +1,5 @@
 # isArray
-```JavaScript
+```javascript
 const toString = {}.toString
 
 Array.isArray = Array.isArray || function(arr){
@@ -10,3 +10,4 @@ Array.isArray = Array.isArray || function(arr){
 参考链接:
 
 [isarray](https://github.com/juliangruber/isarray)
+

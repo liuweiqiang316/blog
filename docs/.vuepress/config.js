@@ -39,6 +39,10 @@ module.exports = {
                 text: 'git',
                 link: '/git'
             },
+            {
+                text: '代码片段',
+                link: '/代码片段'
+            },
         ],
         contributors: false,
         lastUpdatedText: '最后更新于',
