@@ -35,6 +35,10 @@ module.exports = {
                 text: 'Linux常用命令',
                 link: '/Linux常用命令'
             },
+            {
+                text: 'git',
+                link: '/git'
+            },
         ],
         contributors: false,
         lastUpdatedText: '最后更新于',
