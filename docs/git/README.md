@@ -1,6 +1,6 @@
 # git相关
 
-## 我的git常用别名
+## 常用命令
 
 ```bash
 git config --global alias.st status
@@ -12,6 +12,8 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 git config --global core.editor emacs
 # 设置git全局编辑器为 vim
 git config --global core.editor vim
+git config --global user.name 'xxx'
+git config --global user.email 'xxx'
 ```
 
 
