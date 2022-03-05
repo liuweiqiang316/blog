@@ -1,10 +1,10 @@
 # 生成器自动执行函数
 
-调用生成器函数会生成一个迭代器（<code>iterator</code>）。
+调用生成器函数会生成一个迭代器（`iterator`）。
 
-对迭代器进行遍历就是一个生成器的执行函数（<code>run0</code>），这个函数是同步执行的只能用来处理<code>gen</code>这种简单的生成器函数。<code>run0</code>这里用到<code>while</code>循环遍历，其实用<code>for</code>循环应该也是一样的。
+对迭代器进行遍历就是一个生成器的执行函数（`run0`），这个函数是同步执行的只能用来处理`gen`这种简单的生成器函数。`run0`这里用到`while`循环遍历，其实用`for`循环应该也是一样的。
 
-<code>run1、run2</code>用的都是内部函数递归调用。不同点在于，<code>run1</code>用的是回调函数的形式，<code>run2</code>用的是<code>Promise</code>的形式，所以其实<code>run1</code>递归调用<code>step</code>时同步代码不会等异步函数执行，<code>run2</code>递归调用的<code>step</code>是包裹在Promise.then函数的内部执行函数中，所以<code>run2</code>一定是等到<code>gen1</code>内部的异步代码执行完成后才会执行下一次<code>step</code>，也就是说一定会等到<code>gen1</code>函数内部<code>yield</code>的结果后才开始执行下面的代码。
+`run1、run2`用的都是内部函数递归调用。不同点在于，`run1`用的是回调函数的形式，`run2`用的是`Promise`的形式，所以其实`run1`递归调用`step`时同步代码不会等异步函数执行，`run2`递归调用的`step`是包裹在Promise.then函数的内部执行函数中，所以`run2`一定是等到`gen1`内部的异步代码执行完成后才会执行下一次`step`也就是说一定会等到`gen1`函数内部`yield`的结果后才开始执行下面的代码。
 
 ```javascript
 /**
