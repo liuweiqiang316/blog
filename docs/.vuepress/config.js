@@ -7,7 +7,7 @@ module.exports = {
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
-        logo: 'https://vuejs.org/images/logo.png',
+        // logo: 'https://vuejs.org/images/logo.png',
         sidebar: [
             {
                 text: 'JavaScript异步',
@@ -20,7 +20,19 @@ module.exports = {
                     {
                         text: 'isArray',
                         link: '/手写/isArray.md'
-                    }
+                    },
+                    {
+                        text: 'reduce',
+                        link: '/手写/reduce.md'
+                    },
+                    {
+                        text: 'sym',
+                        link: '/手写/sym.md'
+                    },
+                    {
+                        text: '生成器执行器',
+                        link: '/手写/run.md'
+                    },
                 ]
             },
             {
@@ -42,6 +54,10 @@ module.exports = {
             {
                 text: '代码片段',
                 link: '/代码片段'
+            },
+            {
+                text: 'vue.js设计与实现的阅读笔记',
+                link: '/vue.js设计与实现的阅读笔记'
             },
         ],
         contributors: false,
