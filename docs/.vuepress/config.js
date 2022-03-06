@@ -3,6 +3,7 @@ module.exports = {
     lang: 'zh-CN',
     title: '微斯人的博客',
     description: '微斯人的杂货铺',
+    base:'/blog/',
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',
