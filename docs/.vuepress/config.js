@@ -18,6 +18,10 @@ module.exports = {
                 link: '/手写',
                 children: [
                     {
+                        text: 'Promise',
+                        link: '/手写/promise.md'
+                    },
+                    {
                         text: 'isArray',
                         link: '/手写/isArray.md'
                     },
