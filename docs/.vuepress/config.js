@@ -11,6 +11,10 @@ module.exports = {
         // logo: 'https://vuejs.org/images/logo.png',
         sidebar: [
             {
+                text: 'JavaScript基础',
+                link: '/JavaScript基础'
+            },
+            {
                 text: 'JavaScript异步',
                 link: '/JavaScript异步'
             },
