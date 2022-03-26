@@ -16,6 +16,8 @@ const timeoutReject = t => {
 function spread(fn){
     return Function.apply.bind(fn, null)
 }
+// 返回一个[0,1,2,,,,9]的数组, _当做占位
+Array.from({length: 10}, (_, i) => i)
 
 ```
 
