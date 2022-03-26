@@ -1,0 +1,1 @@
+const e={key:"v-0474b18e",path:"/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645456438e3},filePathRelative:"Linux\u5E38\u7528\u547D\u4EE4/README.md"};export{e as data};

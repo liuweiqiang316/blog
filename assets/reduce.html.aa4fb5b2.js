@@ -1,0 +1,1 @@
+const e={key:"v-2efe8b75",path:"/%E6%89%8B%E5%86%99/reduce.html",title:"myReduce",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646463011e3},filePathRelative:"\u624B\u5199/reduce.md"};export{e as data};
