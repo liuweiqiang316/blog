@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: http://liuweiqiang316.cn/sitemap.xml

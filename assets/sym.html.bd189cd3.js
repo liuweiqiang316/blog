@@ -1,1 +1,0 @@
-const t={key:"v-50c78d70",path:"/%E6%89%8B%E5%86%99/sym.html",title:"sym",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646463011e3},filePathRelative:"\u624B\u5199/sym.md"};export{t as data};
