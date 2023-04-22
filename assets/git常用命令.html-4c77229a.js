@@ -1,0 +1,12 @@
+import{_ as a,X as n,Y as s,a1 as e}from"./framework-23afdf50.js";const i={},t=e(`<h1 id="git相关" tabindex="-1"><a class="header-anchor" href="#git相关" aria-hidden="true">#</a> git相关</h1><h2 id="常用命令" tabindex="-1"><a class="header-anchor" href="#常用命令" aria-hidden="true">#</a> 常用命令</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> alias.st status
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> alias.ci commit
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> alias.br branch
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> alias.df <span class="token function">diff</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> alias.lg <span class="token string">&quot;log --color --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39; --abbrev-commit&quot;</span>
+<span class="token comment"># 设置git全局编辑器为 emacs</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> core.editor emacs
+<span class="token comment"># 设置git全局编辑器为 vim</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> core.editor <span class="token function">vim</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">&#39;xxx&#39;</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">&#39;xxx&#39;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3),l=[t];function c(o,r){return n(),s("div",null,l)}const d=a(i,[["render",c],["__file","git常用命令.html.vue"]]);export{d as default};
