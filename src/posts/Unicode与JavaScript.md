@@ -1,5 +1,4 @@
-#领域/编程/前端/JavaScript 
-## Unicode与JavaScript 
+# Unicode与JavaScript 
 
 keywords：字符集、Unicode、码点、字节、bit、JavaScript、ASCII、UTF-32、UTF-16、UTF-8、 
 
