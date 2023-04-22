@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: http://liuweiqiang316.cn/sitemap.xml
+Sitemap: http://liuweiqiang316.cn/base/sitemap.xml
