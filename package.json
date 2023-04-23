@@ -5,6 +5,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "github:start": "cross-env BASE_URL=/blog/ pnpm docs:dev",
+    "github:build": "cross-env BASE_URL=/blog/ vuepress build src",
     "start": "pnpm docs:dev",
     "docs:build": "vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
@@ -13,6 +15,8 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.61",
+    "@vuepress/utils": "2.0.0-alpha.1",
+    "cross-env": "^7.0.3",
     "vue": "^3.2.47",
     "vuepress": "2.0.0-beta.61",
     "vuepress-theme-hope": "2.0.0-beta.205"

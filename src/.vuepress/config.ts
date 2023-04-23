@@ -1,8 +1,11 @@
 import { defineUserConfig } from "vuepress";
+import { path } from "@vuepress/utils";
 import theme from "./theme.js";
 
+const BASE_URL: any = process.env.BASE_URL || "/";
+
 export default defineUserConfig({
-  base: "/blog/",
+  base: BASE_URL,
 
   lang: "zh-CN",
 
@@ -20,6 +23,13 @@ export default defineUserConfig({
   // },
 
   theme,
+
+  alias: {
+    "@theme-hope/components/PageFooter": path.resolve(
+      __dirname,
+      "./layout/Footer.vue"
+    ),
+  },
 
   // Enable it with pwa
   // shouldPrefetch: false,

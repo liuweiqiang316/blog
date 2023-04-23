@@ -15,5 +15,5 @@ heroFullScreen: true
 #     desc: 项目详细描述
 #     link: https://你的项目链接
 
-# footer: <a href="https://beian.miit.gov.cn/" target="_blank" >粤ICP备2023038279号-1</a>
+footer: <a href="https://beian.miit.gov.cn/" target="_blank" >粤ICP备2023038279号-1</a>
 ---
