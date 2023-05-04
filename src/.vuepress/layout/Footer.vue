@@ -4,6 +4,9 @@
       <a href="https://beian.miit.gov.cn/" target="_blank"
         >粤ICP备2023038279号-1
       </a>
+      <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902003858" target="_blank"
+        >粤公网安备 44030902003858号
+      </a>
     </div>
     <div class="copyright">Copyright © 2023 微斯人</div>
   </footer>
