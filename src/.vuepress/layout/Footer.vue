@@ -66,6 +66,8 @@ const showFooter = BASE_URL === '/'
   .footer {
     margin: 0.5rem 1rem;
     font-size: 14px;
+    display: flex;
+    gap: 50px;
 
     @media print {
       display: none;
